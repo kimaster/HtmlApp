@@ -40,5 +40,43 @@
         need to pay attention the last element will take effect 
         so for example if you have 
     </p>
+
+    <h3>Inheritance</h3>
+    <p>children inherit styles from parent unless they have their own style defined
+      <br>
+      this is only applies to the properties that are matching
+      <br>
+      some properties are not inherited as border and need to be set by the child element 
+        border: 3px solid black;
+    </p>
+    <p>/* Last Rule and specificity * Universal selector*/
+      <ul>
+        <li><h4>          Last Rule</h4> <p>
+           if you setup rule at the beginning of the file 
+      and then you add the same rule after it in the bottom
+      the last rule will be applied
+        </p></li>
+        <li>
+          <h3>Selector specificity</h3>
+          <p>If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will "win", and its style declaration will be applied to that HTML element.</p>
+          <ol>
+            <li>Inline styles  Example: <h1 style="color: pink;"></h1> </li>
+            <li>id selector IDs - Example: #navbar</li>
+            <li> Classes, pseudo-classes, attribute selectors - Example: .test, :hover, [href]</li>
+          <li>Elements and pseudo-elements - Example: h1, ::before</li>
+          </ol>
+          <p><strong>The selector with the highest specificity value will win and take effect!</strong></p>
+
+        </li>
+        <li>
+          <h4>* Universal selector</h4>
+          this is the last one that have specificity and 
+
+
+          usually used to get ride of the the browser default values so
+        </li>
+      </ul>
+     
+    </p>
   </body>
 </html>
