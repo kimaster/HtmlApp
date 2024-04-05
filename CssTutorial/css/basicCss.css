@@ -1,0 +1,63 @@
+/* ss */
+h1,
+h2,
+p {
+  color: blue;
+}
+h1 {
+  font-size: 14px;
+}
+h2 {
+  font-size: 25px;
+}
+p {
+  word-wrap: break-word;
+  max-width: 500px;
+}
+/* css rule */
+/* selector */
+
+/* element selector */
+/* id selector */
+/* class selector */
+/* declaration block */
+/* properties */
+/* value */
+
+/* Grouping Selectors */
+
+/* if you want multiple selector have the the same propertys
+  
+  h1 {
+  color: blue;
+  font-size: 14px;
+}
+h2 {
+  color: blue;
+  font-size: 25px;
+}
+p {
+ color: blue;
+  word-wrap: break-word;
+  max-width: 500px;
+}
+
+the solution is to groupe the selection is ton 
+separate the selection by , ","
+  */
+
+/* 2-   ID Selectors */
+
+/* 3- class selector */
+
+/* div and span are used for grouping*/
+/* Div is used to group multiple elements*/
+/* SPAN is used to group inline content*/
+/* and we can either target them as element  or add class or ID as we have seen before 
+
+div is heavily is to group elements together*/
+
+/* 4- Inheritance in CSS */
+
+/*  the idea is the child element inherit styles from parent unless they have their own style 
+defined  */
