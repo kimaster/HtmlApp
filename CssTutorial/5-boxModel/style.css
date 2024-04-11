@@ -1,0 +1,111 @@
+/*
+CSS BOX MODEL
+
+
+--Pading
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+
+
+    padding: 30px 60px;
+             top-bottom left-right   
+
+
+             2- margin
+distance between the bordre and the edge  of the element
+
+
+note that the browser has default margin better to removed them
+*{
+margin:0;
+}
+
+padding space around around element content
+margin space around element
+border : sit in between padding and margin
+
+
+border-radius"
+
+  border-radius: 30px;
+
+  border-radius: 50%;
+
+
+
+  you use margin negative  when you need to use some spacing 
+  
+  -5-outline Property
+
+  out line give us some edge 
+
+  */
+* {
+  margin: 0;
+}
+h1,
+p {
+  color: white;
+  margin: 4rem 4px 50px 10px;
+}
+h1 {
+  background: red;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+
+  border-style: solid;
+  border-width: 10px;
+  border-color: chartreuse;
+}
+
+p {
+  background-color: blue;
+  /* padding: 40px; */
+  padding: 30px 60px;
+  border: 1rem dashed chocolate;
+  margin: 10px;
+}
+
+.margin {
+  margin: 3rem;
+  border-bottom-style: double;
+  border-bottom-color: brown;
+  border-bottom-width: 10px;
+}
+.radius {
+  background-color: beige;
+  color: black;
+  border: 7px solid greenyellow;
+
+  border-radius: 30px;
+
+  border-radius: 50%;
+
+  margin-top: -160px;
+}
+
+.link {
+  margin: 3rem;
+}
+a {
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: #222;
+  text-transform: uppercase;
+  margin: 0 20px;
+  background-color: green;
+}
+
+#one {
+  border: 0.2rem solid black;
+}
+#two {
+  outline-width: 0.2rem;
+  outline-color: #222;
+  outline-style: solid;
+  outline-offset: -10px;
+}
