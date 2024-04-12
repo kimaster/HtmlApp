@@ -41,9 +41,20 @@ border-radius"
 
   out line give us some edge 
 
+
+  6- border hack
+
+* {
+ 
+  border: 2px solid red;
+}
+
+you can see exactly what is happeing an why some thing is wrong with the layout
   */
 * {
   margin: 0;
+
+  border: 2px solid red;
 }
 h1,
 p {
