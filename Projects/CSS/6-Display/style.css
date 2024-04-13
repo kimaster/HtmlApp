@@ -1,0 +1,64 @@
+/*  setup reset the browser
+remove the  margin 
+*/
+* {
+  margin: 0;
+}
+
+/* select body and add system font and backgroyhd 
+and line hiefght */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f5f9;
+  line-height: 1.5;
+}
+
+/* this add  padding and background
+note: this is is the typical setup
+the page can have multiple section with
+different background and padding
+
+for the most part each section has diffrent backgourpd
+
+usually we have the background of body as default
+
+*/
+.section {
+  /* found the is nice  */
+  padding: 5rem;
+
+  background: #fff;
+}
+
+/* the section title  */
+.section-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.title-underline {
+  height: 0.25rem;
+  background-color: cornflowerblue;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 5rem;
+}
+
+/* paragraph represent what we place in teh section */
+
+.section-center {
+  width: 90vh;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/* question */
+
+/* 
+- Why section title in separate div?
+- Why 90vw and 1170px
+- The purpose of section-center
+- Examples
+
+
+*/
