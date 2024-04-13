@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #f1f5f9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.card {
+  /*
+  - background
+  - padding
+  - align-text in the center
+  - max-width
+  - margin
+  - border-radius
+  - border
+    
+    
+    */
+
+  /* - background */
+  background-color: #fff;
+  /* - padding */
+  padding: 1.5rem 2rem;
+
+  /* - align-text in the center */
+  text-align: center;
+
+  /* - max-width */
+  max-width: 300px;
+  /* margin */
+  margin: 3rem;
+  /* - border-radius */
+  border-radius: 0.5rem;
+  /* border */
+  border: 1px solid transparent;
+}
+.card-1 {
+  border-color: blue;
+}
+
+.card-2 {
+  border-color: #ff69a6;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  margin: 1.5rem auto;
+  border-radius: 50%;
+}
+.card-1 .icon {
+  background-color: blue;
+}
+.card-2 .icon {
+  background-color: #ff69a6;
+}
+
+/* select title capitalize the text and add spacing */
+.title {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+/* select text setup lign height  and color  */
+.text {
+  line-height: 15px;
+  color: #64748b;
+}
+.btn {
+  /* capitalize text */
+  text-transform: capitalize;
+  /* border transparent */
+  border-color: transparent;
+  border-radius: 0.5rem;
+
+  padding: 0.5rem 1rem;
+  letter-spacing: 2px;
+  margin: 20px auto;
+}
+/*select btn-pink*/
+.card .btn-pink {
+  background-color: #ffe8f1;
+  color: #ff69a6;
+}
+
+/*select btn-blue*/
+.card .btn-blue {
+  background-color: blue;
+  color: #ecf4ff;
+}

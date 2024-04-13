@@ -1,0 +1,43 @@
+/*
+
+display property:
+
+ELEMENT HAVE IT SET BY DEFAULT
+
+BLOCK: Always starts a new line and spans full width
+
+Inline : does not start  a new line and only width of the content
+- where does that make difference this properties
+
+important in horizontal centering
+
+This will be important in flex box 
+
+if we want to center inline element we will need to work with their parent in this case the body
+ the 
+
+ for block element 
+ give a width and add margin on top bottom and auto for left and right
+   margin: 0 auto; 
+   
+   3- other diffirence between block and inline element are : width and height and botom maring are respected by the borowser but not for the inline one 
+   */
+.block {
+  background-color: blue;
+  color: white;
+  /* display: block; /*default*/
+  /*display: inline; */
+  width: 300px;
+  margin: 2rem auto; /**/
+}
+
+.inline {
+  background-color: red;
+  color: white;
+  /*display: inline; default
+  display: block;*/
+}
+
+body {
+  text-align: center;
+}

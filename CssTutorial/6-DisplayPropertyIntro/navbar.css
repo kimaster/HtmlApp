@@ -1,0 +1,55 @@
+/*
+block : browser respect width/height top/bottom margin
+
+inline :  browser does not respect width and heift  and top bottom margin
+
+navbar 
+
+list-type-type: property
+descendant selector
+
+
+remove all the bullet point in li 
+  list-style-type: none;
+  box-sizing: border-box;
+
+  when you apply padding the content it will fit the box and the content will shrink 
+  so you can have more predictable layout
+
+
+  display: inline-block
+  does not start new line 
+  browser respecr nargibn wiudth height
+  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  color: orange;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background-color: black;
+  padding: 5px;
+
+  display: block;
+}
+
+div {
+  background: blue;
+  color: white;
+  width: 300px;
+  height: 200px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
